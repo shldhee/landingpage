@@ -1,0 +1,28 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+img{max-width: 100%;vertical-align: middle;border:none;}
+fieldset, button {border: none;}
+legend, .hidden {position: absolute;left: -9999px; font-size: 0; width: 1px; height: 1px;}
+caption {text-indent: -9999px;font-size: 0;height: 0;}
+body{font:normal 12px/1.4 'Open Sans', sans-serif; color:#a2a2a2;word-wrap: break-all; font-weight: 700;}
+input, select, textarea{font: 12px/1.4 'PT Sans', sans-serif; color:#666666;border: 1px solid #cdcdcd;vertical-align: middle;}
+textarea {resize: none;}
+input[type="search"]{height: 24px; border: 1px solid #ccc; font-size:13px;}
+input[type="text"], input[type="password"], input[type="tel"], input[type="url"], input[type="email"], input[type="search"] {height: 18px;}
+input[type="radio"], input[type="checkbox"]{border:none;}
+a{text-decoration: none; color: #666666;}
+a:hover, a:focus{ text-decoration: none;}
+h1,h2,h3,h4,h5,h6,strong,address {font-size: 100%; font-weight: normal;}
+address{font-style: normal;}
+table{border-collapse: collapse; }
+th,td{font-weight: normal; border: none;}
+.clearfix:after {content: ''; clear: both; display: block;}
+.hidden {
+  overflow: hidden!important;
+  position: absolute!important;
+  clip: rect(0 0 0 0)!important;
+  width: 1px!important;
+  height: 1px!important;
+  margin: -1px!important;
+}
